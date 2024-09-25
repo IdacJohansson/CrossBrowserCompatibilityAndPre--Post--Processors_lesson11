@@ -1,0 +1,25 @@
+{
+  "name": "crossbrowsercompatibilityandpre--post--processors_lesson11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdacJohansson/crossBrowserCompatibilityAndPre--Post--Processors_lesson11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IdacJohansson/crossBrowserCompatibilityAndPre--Post--Processors_lesson11/issues"
+  },
+  "homepage": "https://github.com/IdacJohansson/crossBrowserCompatibilityAndPre--Post--Processors_lesson11#readme",
+  "devDependencies": {
+    "sass": "^1.79.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
