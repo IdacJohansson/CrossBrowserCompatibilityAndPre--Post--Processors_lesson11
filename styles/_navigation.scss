@@ -1,0 +1,27 @@
+nav {
+  max-width: 1109px;
+  width: 100%;
+  min-height: 23px;
+  height: 100%;
+  border: green solid 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   .nav__list {
+  //     display: flex;
+  //     list-style-type: none;
+  //     align-items: center;
+  //   }
+}
+.list {
+  list-style-type: none;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.list li {
+}
+
+.logo-img {
+}

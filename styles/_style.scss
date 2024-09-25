@@ -1,0 +1,13 @@
+@use 'fonts';      
+
+@import 'navigation'; 
+@import 'footer';
+@import 'gallery';
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: fonts.$main-font;
+}
