@@ -1,4 +1,4 @@
-nav {
+.nav {
   max-width: 1109px;
   width: 100%;
   min-height: 23px;
@@ -7,21 +7,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //   .nav__list {
-  //     display: flex;
-  //     list-style-type: none;
-  //     align-items: center;
-  //   }
-}
-.list {
-  list-style-type: none;
-  align-items: center;
-  gap: 24px;
-  display: flex;
-}
+  &__list {
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    list-style-type: none;
+  }
+  &__link{
+    color: black;
+    // ta bort undrscore
 
-.list li {
-}
-
-.logo-img {
+  }
+  &__li {
+    cursor: pointer;
+    &:hover {
+      color: rgb(136, 136, 136);
+      opacity: 0.8;
+    }
+  }
 }
