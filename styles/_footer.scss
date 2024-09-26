@@ -1,0 +1,36 @@
+.footer {
+    max-width: 1109px;
+    width: 100%;
+    min-height: 23px;
+    height: 100%;
+    border: green solid 2px;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &__list {
+      align-items: center;
+      gap: 24px;
+      display: flex;
+      justify-content: end;
+      list-style-type: none;
+      right: 191px;
+    }
+    &__link{
+      color: black;
+      // ta bort undrscore
+  
+    }
+    &__li {
+      cursor: pointer;
+      &:hover {
+        color: rgb(136, 136, 136);
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .social-img{
+    display: flex;
+    justify-content: end;
+  }
