@@ -1,6 +1,4 @@
 .text-box-container {
-  position: relative;
-  top: 100px;
   display: grid;
   grid-template-columns: 635px 1fr 1fr;
   grid-template-rows: 165px 1fr 1fr;
@@ -10,6 +8,8 @@
   width: 100%;
   min-height: 106px;
   height: 100%;
+  position: relative;
+  margin-top: 100px;
 }
 
 .text-heading {
