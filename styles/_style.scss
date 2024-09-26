@@ -1,13 +1,17 @@
-@use 'fonts';      
+@use "fonts";
 
-@import 'navigation'; 
-@import 'footer';
-@import 'gallery';
+@import "colors"; 
+@import "navigation";
+@import "footer";
+@import "gallery";
+@import "main";
+@import "text-box";
 
-
-body{
+body {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: fonts.$main-font;
+  // min-height: 3840px;
 }
