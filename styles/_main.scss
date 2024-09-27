@@ -10,7 +10,6 @@
 
 .text-container {
   position: relative;
-  border: red solid;
   max-width: 635px;
   width: 100%;
   min-height: 251px;
@@ -36,11 +35,13 @@
 }
 
 .quote-container {
-  border: chartreuse solid;
   max-width: 212px;
   width: 100%;
   min-height: 34px;
   height: 100%;
+  margin-top: -70px;
+  margin-right: 20px;
+  margin-left: auto;
 }
 
 .rectangle {
