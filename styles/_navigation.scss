@@ -9,13 +9,16 @@
   align-items: center;
   &__list {
     align-items: center;
+    justify-content: center;
     gap: 24px;
     display: flex;
     list-style-type: none;
+    font-weight: 700;
+    font-size: 18px;
   }
   &__link{
     color: black;
-    // ta bort undrscore
+    text-decoration: none;
 
   }
   &__li {
