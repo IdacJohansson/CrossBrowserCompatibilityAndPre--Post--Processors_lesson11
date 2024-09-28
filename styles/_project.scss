@@ -1,0 +1,110 @@
+@use "fonts";
+@import "colors";
+
+@import "navigation";
+@import "footer";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: fonts.$main-font;
+}
+
+.main-project{
+  position: relative;
+  top: 10px;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 1068px;
+  height: 100%;
+}
+
+// textbox and table
+
+.headline-container {
+  max-width: 495px;
+  width: 100%;
+  min-height: 154px;
+  height: auto;
+}
+
+.headline {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.text-container-project-details {
+  max-width: 635px;
+  width: 100%;
+  min-height: 222px;
+  height: auto;
+}
+
+.text-project-details {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: $black;
+  opacity: 0.8;
+  word-wrap: break-word;
+  margin: 0px;
+}
+
+%table-general {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid;
+  border-color: $gray;
+  font-size: 18px;
+}
+
+.table {
+  position: absolute;
+  top: 20px;
+  right: 0;    
+  border-collapse: collapse;
+  max-width: 335px;
+  width: 100%;
+  height: 343px;
+  line-height: 45px;
+  font-weight: 700;
+
+  &__td {
+    @extend %table-general;
+    opacity: 0.5;
+  }
+
+  &__tdr {
+    @extend %table-general;
+  }
+}
+
+.image-container{
+  position: relative;
+  margin-top: 100px;
+}
+
+.image-text{
+  position: relative;
+  margin-top: 45px;
+  max-width: 1109px;
+  width: 100%;
+  min-height: 93px;
+  height: 100%;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.mini-gallery{
+  position: relative;
+  margin-top: 100px;
+  display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 100px;
+    gap: 30px;
+    max-width: 1110px;
+    width: 100%;
+}
