@@ -4,22 +4,15 @@
 @import "navigation";
 @import "footer";
 @import "gallery";
+@import "global";
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-family: fonts.$main-font;
+%page-hight-home {
+  min-height: 3840px;
+  height: 100%;
 }
 
 .main-home {
-  position: relative;
-  top: 10px;
-  max-width: 1110px;
-  width: 100%;
-  min-height: 3840px;
-  height: 100%;
+  @extend %page-hight-home;
 }
 
 // headline and quote - home
