@@ -16,15 +16,15 @@
     font-size: 18px;
   }
   &__link{
-    color: black;
+    color: colors.$black;
     text-decoration: none;
 
   }
   &__li {
     cursor: pointer;
     &:hover {
-      color: rgb(136, 136, 136);
-      opacity: 0.8;
+      color: colors.$gray;
+      opacity: 0.80;
     }
   }
 }
