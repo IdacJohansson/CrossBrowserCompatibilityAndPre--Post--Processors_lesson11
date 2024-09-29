@@ -1,20 +1,20 @@
 @use "fonts";
-@import "colors"; 
+@use "colors";
 
 @import "navigation";
 @import "footer";
-@import "global"; 
-@import "form"; 
+@import "layout";
+@import "form";
 
-  %page-hight-contact{
-    min-height: 1150px; //1375
-    height: 100%;
-  }
+%page-hight-contact {
+  min-height: 1150px; //1375
+  height: 100%;
+}
 
-  .main {
-    @extend %page-hight-contact; 
-  }
-  
+.main {
+  @extend %page-hight-contact;
+}
+
 // contact styles
 
 .headline-container {
@@ -45,13 +45,13 @@
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
-  color: $black;
+  color: colors.$black;
   opacity: 0.8;
   word-wrap: break-word;
   margin: 0px;
 }
 
-.image-map{
+.image-map {
   position: relative;
   margin-top: 120px;
   max-width: 1110px;
@@ -59,4 +59,3 @@
   min-height: 570px;
   height: 100%;
 }
-

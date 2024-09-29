@@ -9,13 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="/styles/_contact.css" />
     <title>Contact</title>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="nav">
-      <img class="logo-img" src="/images/Logo.svg" alt="logo" />
+      <a href="/index.html"
+        ><img class="logo-img" src="/images/Logo.svg" alt="logo"
+      /></a>
       <ul class="nav__list">
         <li class="nav__li">
           <a class="nav__link" href="/pages/project.html">Projects</a>
@@ -42,14 +45,27 @@
       </div>
 
       <form class="form">
-        <!-- <label class="form__lable" for="name">Name</label> -->
-        <input class="form__input" type="text" id="name" name="name" placeholder="Name" />
-
-        <!-- <label class="form__lable" for="email">Email</label> -->
-        <input class="form__input" type="email" id="email" name="email" placeholder="Email" />
-
-        <!-- <label class="form__lable" for="Message">Message</label> -->
-        <input class="form__input" type="text" id="message" name="message" placeholder="Message" />
+        <input
+          class="form__input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name"
+        />
+        <input
+          class="form__input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          class="form__input"
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Message"
+        />
 
         <button class="submit-btn">Submit</button>
       </form>
@@ -61,7 +77,9 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <img class="logo-img" src="/images/Logo.svg" alt="logo" />
+      <a href="/index.html"
+        ><img class="logo-img" src="/images/Logo.svg" alt="logo"
+      /></a>
       <ul class="footer__list">
         <li class="footer__li">
           <a class="footer__link" href="project.html">Projects</a>

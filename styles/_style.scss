@@ -1,10 +1,10 @@
 @use "fonts";
-@import "colors";
+@use "colors";
 
 @import "navigation";
 @import "footer";
 @import "gallery";
-@import "global";
+@import "layout";
 
 %page-hight-home {
   min-height: 3840px;
@@ -65,7 +65,7 @@
   width: 30px;
   height: 2px;
   opacity: 0.5;
-  background: $black;
+  background: colors.$black;
 }
 
 .design-text {
@@ -146,7 +146,7 @@
   row-gap: 50px;
   border-top: solid 1px;
   border-bottom: solid 1px;
-  border-color: $gray;
+  border-color: colors.$gray;
   min-height: 411px;
   height: 100%;
 }
@@ -220,7 +220,7 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 8px;
   border-bottom: solid 1px;
-  border-color: $gray;
+  border-color: colors.$gray;
   min-height: 410px;
   height: 100%;
 }
